@@ -1,0 +1,26 @@
+{
+    "customers": [
+        {}    
+    ],
+    "employees": [
+        {}
+    ],
+    "locations": [
+        {}
+    ],
+    "products": [
+        {}
+    ],
+    "productTypes": [
+        {}
+    ],
+    "purchases": [
+        {}
+    ],
+    "productLocations": [
+        {}
+    ],
+    "productPurchases": [
+        {}
+    ]
+}
