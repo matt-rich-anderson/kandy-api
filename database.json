@@ -90,28 +90,28 @@
         {
             "id": 1,
             "name": "Gummie Bears",
-            "typeId": null,
-            "price": 2.5
+            "typeId": 2,
+            "price": 2.50
           }, {
             "id": 2,
             "name": "Chocolate-Coverd Ants",
-            "typeId": null,
-            "price": 3
+            "typeId": 2,
+            "price": 3.00
           }, {
             "id": 3,
             "name": "Gummie Frogs",
-            "typeId": null,
+            "typeId": 2,
             "price": 2.75
           }, {
             "id": 4,
             "name": "Sour Strings",
-            "typeId": null,
-            "price": 4
+            "typeId": 3,
+            "price": 4.00
           }, {
             "id": 5,
             "name": "Turkish Delight",
-            "typeId": null,
-            "price": 5
+            "typeId": 4,
+            "price": 5.00
           }
     ],
     "productTypes": [
