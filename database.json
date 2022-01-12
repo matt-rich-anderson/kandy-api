@@ -1,26 +1,173 @@
 {
     "customers": [
-        {}    
+        {
+            "id": 1,
+            "name": "Dorolice Wyre",
+            "email": "dwyre0@networksolutions.com"
+        }, 
+        {
+            "id": 2,
+            "name": "Cathy Samudio",
+            "email": "csamudio1@columbia.edu"
+        
+        },
+        {
+            "id": 3,
+            "name": "Lanette Bestman",
+            "email": "lbestman2@weibo.com"
+        }, 
+        {
+            "id": 4,
+            "name": "Sher Croad",
+            "email": "scroad3@mozilla.org"
+        }, 
+        {
+            "id": 5,
+            "name": "Raphael Barriball",
+            "email": "rbarriball4@prlog.org"
+        }    
     ],
     "employees": [
-        {}
+        {
+            "id": 1,
+            "name": "Esmeralda De Bruijn",
+            "email": "ede0@youku.com",
+            "hourlyPay": 16
+        }, 
+        {
+            "id": 2,
+            "name": "Cassey Valentetti",
+            "email": "cvalentetti1@shutterfly.com",
+            "hourlyPay": 17
+        }, 
+        {
+            "id": 3,
+            "name": "Milissent Jendrich",
+            "email": "mjendrich2@statcounter.com",
+            "hourlyPay": 17
+        }, 
+        {
+            "id": 4,
+            "name": "Toni Gadd",
+            "email": "tgadd3@meetup.com",
+            "hourlyPay": 16
+        }, 
+        {
+            "id": 5,
+            "name": "Hasheem Jiroutek",
+            "email": "hjiroutek4@dot.gov",
+            "hourlyPay": 18
+        }
     ],
     "locations": [
-        {}
+        {
+            "id": 1,
+            "address": "1 Cherokee Crossing",
+            "employeeId": 5
+        }, 
+        {
+            "id": 2,
+            "address": "7 Packers Circle",
+            "employeeId": 1
+        }, 
+        {
+            "id": 3,
+            "address": "80 Hoffman Drive",
+            "employeeId": 3
+        }, 
+        {
+            "id": 4,
+            "address": "88634 Scofield Trail",
+            "employeeId": 2
+        }, 
+        {
+            "id": 5,
+            "address": "51 Artisan Circle",
+            "employeeId": 4
+        }
     ],
     "products": [
-        {}
+        {
+            "id": 1,
+            "name": "Gummie Bears",
+            "typeId": null,
+            "price": 2.5
+          }, {
+            "id": 2,
+            "name": "Chocolate-Coverd Ants",
+            "typeId": null,
+            "price": 3
+          }, {
+            "id": 3,
+            "name": "Gummie Frogs",
+            "typeId": null,
+            "price": 2.75
+          }, {
+            "id": 4,
+            "name": "Sour Strings",
+            "typeId": null,
+            "price": 4
+          }, {
+            "id": 5,
+            "name": "Turkish Delight",
+            "typeId": null,
+            "price": 5
+          }
     ],
     "productTypes": [
-        {}
+        {
+            "id": 1,
+            "name": "chocolate-coverd insects"
+        }, 
+        {
+            "id": 2,
+            "name": "gummie"
+        }, 
+        {
+            "id": 3,
+            "name": "licorice"
+        }, 
+        {
+            "id": 4,
+            "name": "other"
+        } 
+        
     ],
     "purchases": [
-        {}
-    ],
-    "productLocations": [
-        {}
-    ],
-    "productPurchases": [
-        {}
+        {
+            "id": 1,
+            "customerId": 2,
+            "employeeId": 1,
+            "productId": null,
+            "totalSale": null
+        }, 
+        {
+            "id": 2,
+            "customerId": 4,
+            "employeeId": 2,
+            "productId": null,
+            "totalSale": null
+        }, 
+        {
+            "id": 3,
+            "customerId": 1,
+            "employeeId": 5,
+            "productId": null,
+            "totalSale": null
+        }, 
+        {
+            "id": 4,
+            "customerId": 5,
+            "employeeId": 4,
+            "productId": null,
+            "totalSale": null
+        }, 
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 3,
+            "productId": null,
+            "totalSale": null
+        }
     ]
 }
